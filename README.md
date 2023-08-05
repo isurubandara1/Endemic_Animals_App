@@ -1,16 +1,11 @@
-# endemic_animals
+# Endemic Animals App
 
-A new Flutter project.
+This app has been developed using Flutter. It showcases a wide range of native endemic animals found across continents worldwide. The application is designed to be highly user-friendly and is compatible with both Android and iOS platforms. Users can acquire valuable knowledge about various animals by referring to this app.
 
-## Getting Started
+## Screenshots
 
-This project is a starting point for a Flutter application.
+![20230806_013208](https://github.com/isurubandara1/Endemic_Animals_App/assets/111081151/85a65c1c-96ed-485f-ba55-32961ca8b4dd)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Technologies Used
+- Flutter framework 
+- Dart language
