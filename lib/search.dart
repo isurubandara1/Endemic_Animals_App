@@ -74,8 +74,8 @@ class _CountrySearchPageState extends State<CountrySearchPage> {
                   ),
                   focusedBorder: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(20.0),
-                    borderSide:
-                        const BorderSide(color: Color.fromARGB(255, 17, 17, 17)),
+                    borderSide: const BorderSide(
+                        color: Color.fromARGB(255, 17, 17, 17)),
                   ),
                 ),
               ),
@@ -114,6 +114,7 @@ class _CountrySearchPageState extends State<CountrySearchPage> {
                     ),
                     onTap: () {
                       if (countries[index].name == 'Africa') {
+                        //Africa page
                         Navigator.push(
                           context,
                           MaterialPageRoute(
@@ -123,6 +124,7 @@ class _CountrySearchPageState extends State<CountrySearchPage> {
                           ),
                         );
                       } else if (countries[index].name == 'Antarctica') {
+                        // Antarctica page
                         Navigator.push(
                           context,
                           MaterialPageRoute(
@@ -132,6 +134,7 @@ class _CountrySearchPageState extends State<CountrySearchPage> {
                           ),
                         );
                       } else if (countries[index].name == 'Asia') {
+                        // Asia page
                         Navigator.push(
                           context,
                           MaterialPageRoute(
@@ -141,6 +144,7 @@ class _CountrySearchPageState extends State<CountrySearchPage> {
                           ),
                         );
                       } else if (countries[index].name == 'Australia') {
+                        //Australia page
                         Navigator.push(
                           context,
                           MaterialPageRoute(
@@ -150,6 +154,7 @@ class _CountrySearchPageState extends State<CountrySearchPage> {
                           ),
                         );
                       } else if (countries[index].name == 'Europe') {
+                        // Europe page
                         Navigator.push(
                           context,
                           MaterialPageRoute(
@@ -159,6 +164,7 @@ class _CountrySearchPageState extends State<CountrySearchPage> {
                           ),
                         );
                       } else if (countries[index].name == 'North America') {
+                        // North America page
                         Navigator.push(
                           context,
                           MaterialPageRoute(
@@ -168,6 +174,7 @@ class _CountrySearchPageState extends State<CountrySearchPage> {
                           ),
                         );
                       } else if (countries[index].name == 'South America') {
+                        //South America page
                         Navigator.push(
                           context,
                           MaterialPageRoute(

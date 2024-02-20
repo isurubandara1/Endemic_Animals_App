@@ -7,6 +7,8 @@ class home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: const Color.fromARGB(255, 88, 184, 91),
+
+      //Appbar
       appBar: AppBar(
         backgroundColor: const Color.fromARGB(255, 18, 110, 72),
         iconTheme: const IconThemeData(
@@ -47,6 +49,8 @@ class home extends StatelessWidget {
           ),
         ),
       ),
+
+      //Drawer
       drawer: Drawer(
         backgroundColor: Colors.white,
         child: ListView(
@@ -57,8 +61,8 @@ class home extends StatelessWidget {
               ),
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
-                children:const [
-                   CircleAvatar(
+                children: const [
+                  CircleAvatar(
                     radius: 50.0,
                     backgroundImage: AssetImage('assets/mo0.jpg'),
                   ),
@@ -143,14 +147,7 @@ class home extends StatelessWidget {
                   fontSize: 16,
                 ),
               ),
-              onTap: () {
-                // Navigator.push(
-                //   context,
-                //   MaterialPageRoute(
-                //     builder: (context) => CountrySearchPage(),
-                //   ),
-                // );
-              },
+              onTap: () {},
             ),
             const SizedBox(
               height: 60,
@@ -173,9 +170,13 @@ class home extends StatelessWidget {
           ],
         ),
       ),
+
+      //body
       body: Container(
         width: double.infinity,
         height: double.infinity,
+
+        //background Image
         decoration: BoxDecoration(
           border: Border.all(
             color: const Color.fromARGB(255, 33, 37, 34),
@@ -186,13 +187,15 @@ class home extends StatelessWidget {
             fit: BoxFit.cover,
           ),
         ),
+
         child: Column(
           children: [
-            const AutoScrollImages(),
+            const AutoScrollImages(), //Animation Images
             Expanded(
               child: SingleChildScrollView(
                 child: Column(
                   children: [
+                    //welcome text
                     const Padding(
                       padding: EdgeInsets.all(2.0),
                       child: Center(
@@ -208,6 +211,8 @@ class home extends StatelessWidget {
                         ),
                       ),
                     ),
+
+                    //first text
                     const Padding(
                       padding: EdgeInsets.all(8.0),
                       child: Center(
@@ -223,6 +228,8 @@ class home extends StatelessWidget {
                         ),
                       ),
                     ),
+
+                    //second text
                     const Padding(
                       padding: EdgeInsets.all(10.0),
                       child: Center(
@@ -238,13 +245,16 @@ class home extends StatelessWidget {
                         ),
                       ),
                     ),
+
+                    //Button
                     Center(
                       child: Padding(
                         padding: const EdgeInsets.fromLTRB(200, 20, 10, 0),
                         child: ElevatedButton(
                           onPressed: () => Navigator.of(context).push(
                               MaterialPageRoute(
-                                  builder: (context) => const CountrySearchPage())),
+                                  builder: (context) =>
+                                      const CountrySearchPage())),
                           style: ElevatedButton.styleFrom(
                               foregroundColor:
                                   const Color.fromARGB(255, 243, 242, 234),
@@ -290,6 +300,7 @@ class home extends StatelessWidget {
   }
 }
 
+//Animation Images crating
 class AutoScrollImages extends StatefulWidget {
   const AutoScrollImages({super.key});
 
