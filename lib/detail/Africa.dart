@@ -5,16 +5,21 @@ class Africa extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      //Appbar
       appBar: AppBar(
         toolbarHeight: 80,
         backgroundColor: const Color.fromARGB(255, 18, 110, 72),
         title: const Text('Africa Animals', style: TextStyle(fontSize: 25)),
         leading: GestureDetector(
-          onTap: () => Navigator.push(context,
-              MaterialPageRoute(builder: (context) => const CountrySearchPage())),
+          onTap: () => Navigator.push(
+              context,
+              MaterialPageRoute(
+                  builder: (context) => const CountrySearchPage())),
           child: const Icon(Icons.arrow_back),
         ),
       ),
+
+      //body
       body: Container(
         decoration: BoxDecoration(
           border: Border.all(
@@ -28,6 +33,7 @@ class Africa extends StatelessWidget {
             child: Center(
               child: Column(
                 children: [
+                  //First animal details
                   Text(
                     'African elephant',
                     textAlign: TextAlign.center,
@@ -38,11 +44,14 @@ class Africa extends StatelessWidget {
                   ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(20, 10, 20, 0),
-                    child: Image.asset(
-                      'assets/Africa/af1.jpg',
-                      width: double.infinity,
-                      height: 250,
-                      fit: BoxFit.fitWidth,
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(20),
+                      child: Image.asset(
+                        'assets/Africa/af1.jpg',
+                        width: double.infinity,
+                        height: 200,
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   ),
                   Padding(
@@ -65,6 +74,8 @@ class Africa extends StatelessWidget {
                   SizedBox(
                     height: 30,
                   ),
+
+                  //Scond animal details
                   Text(
                     'Okapi',
                     textAlign: TextAlign.center,
@@ -75,11 +86,14 @@ class Africa extends StatelessWidget {
                   ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(20, 10, 20, 0),
-                    child: Image.asset(
-                      'assets/Africa/af2.jpg',
-                      width: double.infinity,
-                      height: 250,
-                      fit: BoxFit.fitWidth,
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(20),
+                      child: Image.asset(
+                        'assets/Africa/af2.jpg',
+                        width: double.infinity,
+                        height: 200,
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   ),
                   Padding(
@@ -101,6 +115,8 @@ class Africa extends StatelessWidget {
                   SizedBox(
                     height: 30,
                   ),
+
+                  //Thired animal details
                   Text(
                     'Aardvark',
                     textAlign: TextAlign.center,
@@ -111,11 +127,14 @@ class Africa extends StatelessWidget {
                   ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(20, 10, 20, 0),
-                    child: Image.asset(
-                      'assets/Africa/af3.jpg',
-                      width: double.infinity,
-                      height: 250,
-                      fit: BoxFit.fitWidth,
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(20),
+                      child: Image.asset(
+                        'assets/Africa/af3.jpg',
+                        width: double.infinity,
+                        height: 200,
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   ),
                   Padding(
@@ -137,6 +156,8 @@ class Africa extends StatelessWidget {
                   SizedBox(
                     height: 30,
                   ),
+
+                  //Forth animal details
                   Text(
                     'African leopard',
                     textAlign: TextAlign.center,
@@ -147,11 +168,14 @@ class Africa extends StatelessWidget {
                   ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(20, 10, 20, 0),
-                    child: Image.asset(
-                      'assets/Africa/af4.jpg',
-                      width: double.infinity,
-                      height: 250,
-                      fit: BoxFit.fitWidth,
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(20),
+                      child: Image.asset(
+                        'assets/Africa/af4.jpg',
+                        width: double.infinity,
+                        height: 200,
+                        fit: BoxFit.fill,
+                      ),
                     ),
                   ),
                   Padding(
@@ -173,6 +197,8 @@ class Africa extends StatelessWidget {
                   SizedBox(
                     height: 30,
                   ),
+
+                  //Fifth animal details
                   Text(
                     'African wild dog',
                     textAlign: TextAlign.center,
@@ -183,11 +209,14 @@ class Africa extends StatelessWidget {
                   ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(20, 20, 20, 0),
-                    child: Image.asset(
-                      'assets/Africa/af5.jpg',
-                      width: double.infinity,
-                      height: 250,
-                      fit: BoxFit.fitWidth,
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(20),
+                      child: Image.asset(
+                        'assets/Africa/af5.jpg',
+                        width: double.infinity,
+                        height: 200,
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   ),
                   Padding(
@@ -209,6 +238,8 @@ class Africa extends StatelessWidget {
                   SizedBox(
                     height: 30,
                   ),
+
+                  //Sixth animal details
                   Text(
                     'Black rhinoceros',
                     textAlign: TextAlign.center,
@@ -219,11 +250,14 @@ class Africa extends StatelessWidget {
                   ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(20, 10, 20, 0),
-                    child: Image.asset(
-                      'assets/Africa/af6.jpg',
-                      width: double.infinity,
-                      height: 250,
-                      fit: BoxFit.fitWidth,
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(20),
+                      child: Image.asset(
+                        'assets/Africa/af6.jpg',
+                        width: double.infinity,
+                        height: 200,
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   ),
                   Padding(
@@ -245,6 +279,8 @@ class Africa extends StatelessWidget {
                   SizedBox(
                     height: 30,
                   ),
+
+                  //Seventh animal details
                   Text(
                     'Mountain gorilla',
                     textAlign: TextAlign.center,
@@ -255,11 +291,14 @@ class Africa extends StatelessWidget {
                   ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(20, 20, 20, 0),
-                    child: Image.asset(
-                      'assets/Africa/af7.jpg',
-                      width: double.infinity,
-                      height: 250,
-                      fit: BoxFit.fitWidth,
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(20),
+                      child: Image.asset(
+                        'assets/Africa/af7.jpg',
+                        width: double.infinity,
+                        height: 200,
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   ),
                   Padding(
@@ -281,6 +320,8 @@ class Africa extends StatelessWidget {
                   SizedBox(
                     height: 30,
                   ),
+
+                  //Eight animal details
                   Text(
                     'Grevy\'s zebra',
                     textAlign: TextAlign.center,
@@ -291,11 +332,14 @@ class Africa extends StatelessWidget {
                   ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(20, 20, 20, 0),
-                    child: Image.asset(
-                      'assets/Africa/af8.jpg',
-                      width: double.infinity,
-                      height: 250,
-                      fit: BoxFit.fitWidth,
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(20),
+                      child: Image.asset(
+                        'assets/Africa/af8.jpg',
+                        width: double.infinity,
+                        height: 200,
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   ),
                   Padding(
@@ -317,6 +361,8 @@ class Africa extends StatelessWidget {
                   SizedBox(
                     height: 30,
                   ),
+
+                  //Nineth animal details
                   Text(
                     'Shoebill',
                     textAlign: TextAlign.center,
@@ -327,11 +373,14 @@ class Africa extends StatelessWidget {
                   ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(20, 20, 20, 0),
-                    child: Image.asset(
-                      'assets/Africa/af9.jpg',
-                      width: double.infinity,
-                      height: 250,
-                      fit: BoxFit.fitWidth,
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(20),
+                      child: Image.asset(
+                        'assets/Africa/af9.jpg',
+                        width: double.infinity,
+                        height: 200,
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   ),
                   Padding(
@@ -353,6 +402,8 @@ class Africa extends StatelessWidget {
                   SizedBox(
                     height: 30,
                   ),
+
+                  //Tenth animal details
                   Text(
                     'African penguin',
                     textAlign: TextAlign.center,
@@ -363,11 +414,14 @@ class Africa extends StatelessWidget {
                   ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(20, 20, 20, 0),
-                    child: Image.asset(
-                      'assets/Africa/af10.jpg',
-                      width: double.infinity,
-                      height: 250,
-                      fit: BoxFit.fitWidth,
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(20),
+                      child: Image.asset(
+                        'assets/Africa/af10.jpg',
+                        width: double.infinity,
+                        height: 200,
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   ),
                   Padding(

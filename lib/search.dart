@@ -18,7 +18,7 @@ class Country {
 
 // Define a list of countries
 final List<Country> countries = [
-  Country('Africa ', 'assets/Af.png'),
+  Country('Africa', 'assets/Af.png'),
   Country('Antarctica', 'assets/Ant.png'),
   Country('Asia', 'assets/As.png'),
   Country('Australia', 'assets/Au.png'),
