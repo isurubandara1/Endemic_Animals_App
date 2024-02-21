@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   // Simulate some initialization process
   Future<void> _initializeApp() async {
     try {
-      await Future.delayed(Duration(seconds: 5));
+      await Future.delayed(Duration(seconds: 15));
     } catch (error) {
       print("Error during initialization: $error");
       // Handle initialization error as needed
@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
           try {
             if (snapshot.connectionState == ConnectionState.done) {
               // If the initialization is complete, show the main app content
-              return home();
+              return home(); // Change this line
             } else {
               // Otherwise, show the loading screen
               return LoadingScreen();
@@ -56,10 +56,8 @@ class LoadingScreen extends StatelessWidget {
               image: AssetImage("assets/loding.jpg"),
               fit: BoxFit.fill,
               colorFilter: ColorFilter.mode(
-                Colors.black.withOpacity(
-                    0.6), // Adjust opacity here (0.5 means 50% opacity)
-                BlendMode
-                    .darken, // You can change the blend mode based on your requirement
+                Colors.black.withOpacity(0.6),
+                BlendMode.darken,
               ),
             ),
           ),
