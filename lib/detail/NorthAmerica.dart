@@ -5,6 +5,7 @@ class NorthAmerica extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      //Appbar
       appBar: AppBar(
         toolbarHeight: 80,
         backgroundColor: Color.fromARGB(255, 18, 110, 72),
@@ -15,6 +16,8 @@ class NorthAmerica extends StatelessWidget {
           child: Icon(Icons.arrow_back),
         ),
       ),
+
+      //body
       body: Container(
         decoration: BoxDecoration(
           border: Border.all(
@@ -28,6 +31,7 @@ class NorthAmerica extends StatelessWidget {
             child: Center(
               child: Column(
                 children: [
+                  //First animal details
                   Text(
                     'Vancouver Island marmot',
                     textAlign: TextAlign.center,
@@ -38,11 +42,14 @@ class NorthAmerica extends StatelessWidget {
                   ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(20, 20, 20, 0),
-                    child: Image.asset(
-                      'assets/Noamr/nam1.jpg',
-                      width: double.infinity,
-                      height: 250,
-                      fit: BoxFit.fitWidth,
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(20),
+                      child: Image.asset(
+                        'assets/Noamr/nam1.jpg',
+                        width: double.infinity,
+                        height: 200,
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   ),
                   Padding(
@@ -65,6 +72,8 @@ class NorthAmerica extends StatelessWidget {
                   SizedBox(
                     height: 30,
                   ),
+
+                  //Second animal details
                   Text(
                     'San Joaquin kit fox',
                     textAlign: TextAlign.center,
@@ -75,11 +84,14 @@ class NorthAmerica extends StatelessWidget {
                   ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(20, 20, 20, 0),
-                    child: Image.asset(
-                      'assets/Noamr/nam2.jpg',
-                      width: double.infinity,
-                      height: 250,
-                      fit: BoxFit.fitWidth,
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(20),
+                      child: Image.asset(
+                        'assets/Noamr/nam2.jpg',
+                        width: double.infinity,
+                        height: 200,
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   ),
                   Padding(
@@ -101,6 +113,8 @@ class NorthAmerica extends StatelessWidget {
                   SizedBox(
                     height: 30,
                   ),
+
+                  //Thired animal details
                   Text(
                     'Sierra Nevada bighorn sheep',
                     textAlign: TextAlign.center,
@@ -111,11 +125,14 @@ class NorthAmerica extends StatelessWidget {
                   ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(20, 20, 20, 0),
-                    child: Image.asset(
-                      'assets/Noamr/nam3.jpg',
-                      width: double.infinity,
-                      height: 250,
-                      fit: BoxFit.fitWidth,
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(20),
+                      child: Image.asset(
+                        'assets/Noamr/nam3.jpg',
+                        width: double.infinity,
+                        height: 200,
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   ),
                   Padding(
@@ -137,6 +154,8 @@ class NorthAmerica extends StatelessWidget {
                   SizedBox(
                     height: 30,
                   ),
+
+                  //Forth animal details
                   Text(
                     'Channel Islands fox ',
                     textAlign: TextAlign.center,
@@ -147,11 +166,14 @@ class NorthAmerica extends StatelessWidget {
                   ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(20, 10, 20, 0),
-                    child: Image.asset(
-                      'assets/Noamr/nam4.jpg',
-                      width: double.infinity,
-                      height: 250,
-                      fit: BoxFit.fitWidth,
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(20),
+                      child: Image.asset(
+                        'assets/Noamr/nam4.jpg',
+                        width: double.infinity,
+                        height: 200,
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   ),
                   Padding(
@@ -173,6 +195,8 @@ class NorthAmerica extends StatelessWidget {
                   SizedBox(
                     height: 30,
                   ),
+
+                  //Fifth animal details
                   Text(
                     'Kirtland\'s warbler',
                     textAlign: TextAlign.center,
@@ -183,11 +207,14 @@ class NorthAmerica extends StatelessWidget {
                   ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(20, 20, 20, 0),
-                    child: Image.asset(
-                      'assets/Noamr/nam5.jpg',
-                      width: double.infinity,
-                      height: 250,
-                      fit: BoxFit.fitWidth,
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(20),
+                      child: Image.asset(
+                        'assets/Noamr/nam5.jpg',
+                        width: double.infinity,
+                        height: 200,
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   ),
                   Padding(
@@ -209,6 +236,8 @@ class NorthAmerica extends StatelessWidget {
                   SizedBox(
                     height: 30,
                   ),
+
+                  //Sixth animal details
                   Text(
                     'Gunnison sage-grouse ',
                     textAlign: TextAlign.center,
@@ -219,11 +248,14 @@ class NorthAmerica extends StatelessWidget {
                   ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(20, 10, 20, 0),
-                    child: Image.asset(
-                      'assets/Noamr/nam6.jpg',
-                      width: double.infinity,
-                      height: 250,
-                      fit: BoxFit.fitWidth,
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(20),
+                      child: Image.asset(
+                        'assets/Noamr/nam6.jpg',
+                        width: double.infinity,
+                        height: 200,
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   ),
                   Padding(
@@ -245,6 +277,8 @@ class NorthAmerica extends StatelessWidget {
                   SizedBox(
                     height: 30,
                   ),
+
+                  //Seventh animal details
                   Text(
                     'Texas horned lizard',
                     textAlign: TextAlign.center,
@@ -255,11 +289,14 @@ class NorthAmerica extends StatelessWidget {
                   ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(20, 20, 20, 0),
-                    child: Image.asset(
-                      'assets/Noamr/nam7.jpg',
-                      width: double.infinity,
-                      height: 250,
-                      fit: BoxFit.fitWidth,
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(20),
+                      child: Image.asset(
+                        'assets/Noamr/nam7.jpg',
+                        width: double.infinity,
+                        height: 200,
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   ),
                   Padding(
@@ -281,6 +318,8 @@ class NorthAmerica extends StatelessWidget {
                   SizedBox(
                     height: 30,
                   ),
+
+                  //Eight animal details
                   Text(
                     'Mexican gray wolf',
                     textAlign: TextAlign.center,
@@ -291,11 +330,14 @@ class NorthAmerica extends StatelessWidget {
                   ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(20, 20, 20, 0),
-                    child: Image.asset(
-                      'assets/Noamr/nam8.jpg',
-                      width: double.infinity,
-                      height: 250,
-                      fit: BoxFit.fitWidth,
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(20),
+                      child: Image.asset(
+                        'assets/Noamr/nam8.jpg',
+                        width: double.infinity,
+                        height: 200,
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   ),
                   Padding(
@@ -317,6 +359,8 @@ class NorthAmerica extends StatelessWidget {
                   SizedBox(
                     height: 30,
                   ),
+
+                  //Nineth animal details
                   Text(
                     'Florida panther',
                     textAlign: TextAlign.center,
@@ -327,11 +371,14 @@ class NorthAmerica extends StatelessWidget {
                   ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(20, 20, 20, 0),
-                    child: Image.asset(
-                      'assets/Noamr/nam9.jpg',
-                      width: double.infinity,
-                      height: 250,
-                      fit: BoxFit.fitWidth,
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(20),
+                      child: Image.asset(
+                        'assets/Noamr/nam9.jpg',
+                        width: double.infinity,
+                        height: 200,
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   ),
                   Padding(
@@ -353,6 +400,8 @@ class NorthAmerica extends StatelessWidget {
                   SizedBox(
                     height: 30,
                   ),
+
+                  //Tenth animal details
                   Text(
                     'Jaguarundi ',
                     textAlign: TextAlign.center,
@@ -363,11 +412,14 @@ class NorthAmerica extends StatelessWidget {
                   ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(20, 20, 20, 0),
-                    child: Image.asset(
-                      'assets/Noamr/nam10.jpg',
-                      width: double.infinity,
-                      height: 250,
-                      fit: BoxFit.fitWidth,
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(20),
+                      child: Image.asset(
+                        'assets/Noamr/nam10.jpg',
+                        width: double.infinity,
+                        height: 200,
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   ),
                   Padding(

@@ -7,6 +7,7 @@ class SouthAmerica extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      //AppBar
       appBar: AppBar(
         toolbarHeight: 80,
         backgroundColor: Color.fromARGB(255, 18, 110, 72),
@@ -17,6 +18,8 @@ class SouthAmerica extends StatelessWidget {
           child: Icon(Icons.arrow_back),
         ),
       ),
+
+      //body
       body: Container(
         decoration: BoxDecoration(
           border: Border.all(
@@ -30,6 +33,7 @@ class SouthAmerica extends StatelessWidget {
             child: Center(
               child: Column(
                 children: [
+                  //First animal details
                   Text(
                     'Jaguar',
                     textAlign: TextAlign.center,
@@ -40,11 +44,14 @@ class SouthAmerica extends StatelessWidget {
                   ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(20, 20, 20, 0),
-                    child: Image.asset(
-                      'assets/SoAmr/sam1.jpg',
-                      width: double.infinity,
-                      height: 250,
-                      fit: BoxFit.fitWidth,
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(20),
+                      child: Image.asset(
+                        'assets/SoAmr/sam1.jpg',
+                        width: double.infinity,
+                        height: 200,
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   ),
                   Padding(
@@ -67,6 +74,8 @@ class SouthAmerica extends StatelessWidget {
                   SizedBox(
                     height: 30,
                   ),
+
+                  //Second animal details
                   Text(
                     'Andean condor',
                     textAlign: TextAlign.center,
@@ -77,11 +86,14 @@ class SouthAmerica extends StatelessWidget {
                   ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(20, 20, 20, 0),
-                    child: Image.asset(
-                      'assets/SoAmr/sam2.jpg',
-                      width: double.infinity,
-                      height: 250,
-                      fit: BoxFit.fitWidth,
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(20),
+                      child: Image.asset(
+                        'assets/SoAmr/sam2.jpg',
+                        width: double.infinity,
+                        height: 200,
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   ),
                   Padding(
@@ -103,6 +115,8 @@ class SouthAmerica extends StatelessWidget {
                   SizedBox(
                     height: 30,
                   ),
+
+                  //Thired animal details
                   Text(
                     'Capybara',
                     textAlign: TextAlign.center,
@@ -113,11 +127,14 @@ class SouthAmerica extends StatelessWidget {
                   ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(20, 20, 20, 0),
-                    child: Image.asset(
-                      'assets/SoAmr/sam3.jpg',
-                      width: double.infinity,
-                      height: 250,
-                      fit: BoxFit.fitWidth,
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(20),
+                      child: Image.asset(
+                        'assets/SoAmr/sam3.jpg',
+                        width: double.infinity,
+                        height: 200,
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   ),
                   Padding(
@@ -139,6 +156,8 @@ class SouthAmerica extends StatelessWidget {
                   SizedBox(
                     height: 30,
                   ),
+
+                  //Fourth animal details
                   Text(
                     'Anaconda',
                     textAlign: TextAlign.center,
@@ -149,17 +168,20 @@ class SouthAmerica extends StatelessWidget {
                   ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(20, 10, 20, 0),
-                    child: Image.asset(
-                      'assets/SoAmr/sam4.jpg',
-                      width: double.infinity,
-                      height: 250,
-                      fit: BoxFit.fitWidth,
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(20),
+                      child: Image.asset(
+                        'assets/SoAmr/sam4.jpg',
+                        width: double.infinity,
+                        height: 200,
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(0, 10, 0, 20),
                     child: Text(
-                      'The anaconda is a large, non-venomous snake species that is native to South America, specifically the Amazon rainforest and other wetland areas. They are among the largest snakes in the world, with some individuals reaching lengths of up to 9 meters (30 feet) and weights of over 250 kilograms (550 pounds). Anacondas are powerful swimmers and are typically found in or near water, where they hunt for prey such as fish, birds, and mammals such as capybaras and deer. They are constrictors and kill their prey by wrapping their powerful bodies around them and squeezing until they suffocate. Anacondas are not generally considered a threat to humans, although there have been some reports of attacks on humans in rare cases. ',
+                      'The anaconda is a large, non-venomous snake species that is native to South America, specifically the Amazon rainforest and other wetland areas. They are among the largest snakes in the world, with some individuals reaching lengths of up to 9 meters (30 feet) and weights of over 200 kilograms (550 pounds). Anacondas are powerful swimmers and are typically found in or near water, where they hunt for prey such as fish, birds, and mammals such as capybaras and deer. They are constrictors and kill their prey by wrapping their powerful bodies around them and squeezing until they suffocate. Anacondas are not generally considered a threat to humans, although there have been some reports of attacks on humans in rare cases. ',
                       textAlign: TextAlign.center,
                       style: TextStyle(
                           fontSize: 22,
@@ -175,6 +197,8 @@ class SouthAmerica extends StatelessWidget {
                   SizedBox(
                     height: 30,
                   ),
+
+                  //Fifth animal details
                   Text(
                     'Spectacled bear',
                     textAlign: TextAlign.center,
@@ -185,11 +209,14 @@ class SouthAmerica extends StatelessWidget {
                   ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(20, 20, 20, 0),
-                    child: Image.asset(
-                      'assets/SoAmr/sam5.jpg',
-                      width: double.infinity,
-                      height: 250,
-                      fit: BoxFit.fitWidth,
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(20),
+                      child: Image.asset(
+                        'assets/SoAmr/sam5.jpg',
+                        width: double.infinity,
+                        height: 200,
+                        fit: BoxFit.fill,
+                      ),
                     ),
                   ),
                   Padding(
@@ -211,6 +238,8 @@ class SouthAmerica extends StatelessWidget {
                   SizedBox(
                     height: 30,
                   ),
+
+                  //Sixth animal details
                   Text(
                     'Galapagos tortoise ',
                     textAlign: TextAlign.center,
@@ -221,11 +250,14 @@ class SouthAmerica extends StatelessWidget {
                   ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(20, 10, 20, 0),
-                    child: Image.asset(
-                      'assets/SoAmr/sam6.jpg',
-                      width: double.infinity,
-                      height: 250,
-                      fit: BoxFit.fitWidth,
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(20),
+                      child: Image.asset(
+                        'assets/SoAmr/sam6.jpg',
+                        width: double.infinity,
+                        height: 200,
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   ),
                   Padding(
@@ -247,6 +279,8 @@ class SouthAmerica extends StatelessWidget {
                   SizedBox(
                     height: 30,
                   ),
+
+                  //Seventh animal details
                   Text(
                     'Hoatzin',
                     textAlign: TextAlign.center,
@@ -257,11 +291,14 @@ class SouthAmerica extends StatelessWidget {
                   ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(20, 20, 20, 0),
-                    child: Image.asset(
-                      'assets/SoAmr/sam7.jpg',
-                      width: double.infinity,
-                      height: 250,
-                      fit: BoxFit.fitWidth,
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(20),
+                      child: Image.asset(
+                        'assets/SoAmr/sam7.jpg',
+                        width: double.infinity,
+                        height: 200,
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   ),
                   Padding(
@@ -283,6 +320,8 @@ class SouthAmerica extends StatelessWidget {
                   SizedBox(
                     height: 30,
                   ),
+
+                  //Eight animal details
                   Text(
                     'Vicuña',
                     textAlign: TextAlign.center,
@@ -293,11 +332,14 @@ class SouthAmerica extends StatelessWidget {
                   ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(20, 20, 20, 0),
-                    child: Image.asset(
-                      'assets/SoAmr/sam8.jpg',
-                      width: double.infinity,
-                      height: 250,
-                      fit: BoxFit.fitWidth,
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(20),
+                      child: Image.asset(
+                        'assets/SoAmr/sam8.jpg',
+                        width: double.infinity,
+                        height: 200,
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   ),
                   Padding(
@@ -319,6 +361,8 @@ class SouthAmerica extends StatelessWidget {
                   SizedBox(
                     height: 30,
                   ),
+
+                  //Nineth animal details
                   Text(
                     'Poison dart frog',
                     textAlign: TextAlign.center,
@@ -329,11 +373,14 @@ class SouthAmerica extends StatelessWidget {
                   ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(20, 20, 20, 0),
-                    child: Image.asset(
-                      'assets/SoAmr/sam9.jpg',
-                      width: double.infinity,
-                      height: 250,
-                      fit: BoxFit.fitWidth,
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(20),
+                      child: Image.asset(
+                        'assets/SoAmr/sam9.jpg',
+                        width: double.infinity,
+                        height: 200,
+                        fit: BoxFit.fill,
+                      ),
                     ),
                   ),
                   Padding(
@@ -355,6 +402,8 @@ class SouthAmerica extends StatelessWidget {
                   SizedBox(
                     height: 30,
                   ),
+
+                  //Tenth animal details
                   Text(
                     'Pink river dolphin ',
                     textAlign: TextAlign.center,
@@ -365,11 +414,14 @@ class SouthAmerica extends StatelessWidget {
                   ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(20, 20, 20, 0),
-                    child: Image.asset(
-                      'assets/SoAmr/sam10.jpg',
-                      width: double.infinity,
-                      height: 250,
-                      fit: BoxFit.fitWidth,
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(20),
+                      child: Image.asset(
+                        'assets/SoAmr/sam10.jpg',
+                        width: double.infinity,
+                        height: 200,
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   ),
                   Padding(
