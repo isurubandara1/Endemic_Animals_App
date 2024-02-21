@@ -5,6 +5,7 @@ class Antarctica extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      //AppBar
       appBar: AppBar(
         toolbarHeight: 80,
         backgroundColor: Color.fromARGB(255, 18, 110, 72),
@@ -15,6 +16,8 @@ class Antarctica extends StatelessWidget {
           child: Icon(Icons.arrow_back),
         ),
       ),
+
+      //body
       body: Container(
         decoration: BoxDecoration(
           border: Border.all(
@@ -28,6 +31,7 @@ class Antarctica extends StatelessWidget {
             child: Center(
               child: Column(
                 children: [
+                  //First animal details
                   Text(
                     'Emperor Penguin',
                     textAlign: TextAlign.center,
@@ -38,11 +42,14 @@ class Antarctica extends StatelessWidget {
                   ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(20, 20, 20, 0),
-                    child: Image.asset(
-                      'assets/Antac/an1.jpg',
-                      width: double.infinity,
-                      height: 250,
-                      fit: BoxFit.fitWidth,
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(20),
+                      child: Image.asset(
+                        'assets/Antac/an1.jpg',
+                        width: double.infinity,
+                        height: 200,
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   ),
                   Padding(
@@ -65,6 +72,8 @@ class Antarctica extends StatelessWidget {
                   SizedBox(
                     height: 30,
                   ),
+
+                  //Second animal details
                   Text(
                     'Antarctic Silverfish',
                     textAlign: TextAlign.center,
@@ -75,11 +84,14 @@ class Antarctica extends StatelessWidget {
                   ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(20, 20, 20, 0),
-                    child: Image.asset(
-                      'assets/Antac/an2.webp',
-                      width: double.infinity,
-                      height: 250,
-                      fit: BoxFit.fitWidth,
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(20),
+                      child: Image.asset(
+                        'assets/Antac/an2.webp',
+                        width: double.infinity,
+                        height: 200,
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   ),
                   Padding(
@@ -101,6 +113,8 @@ class Antarctica extends StatelessWidget {
                   SizedBox(
                     height: 30,
                   ),
+
+                  //Thired animal details
                   Text(
                     'Weddell Seal',
                     textAlign: TextAlign.center,
@@ -111,11 +125,14 @@ class Antarctica extends StatelessWidget {
                   ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(20, 20, 20, 0),
-                    child: Image.asset(
-                      'assets/Antac/an3.jpg',
-                      width: double.infinity,
-                      height: 250,
-                      fit: BoxFit.fitWidth,
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(20),
+                      child: Image.asset(
+                        'assets/Antac/an3.jpg',
+                        width: double.infinity,
+                        height: 200,
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   ),
                   Padding(
@@ -137,6 +154,8 @@ class Antarctica extends StatelessWidget {
                   SizedBox(
                     height: 30,
                   ),
+
+                  //Forth animal details
                   Text(
                     'Antarctic Kril',
                     textAlign: TextAlign.center,
@@ -147,11 +166,14 @@ class Antarctica extends StatelessWidget {
                   ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(20, 10, 20, 0),
-                    child: Image.asset(
-                      'assets/Antac/an4.jpg',
-                      width: double.infinity,
-                      height: 250,
-                      fit: BoxFit.fitWidth,
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(20),
+                      child: Image.asset(
+                        'assets/Antac/an4.jpg',
+                        width: double.infinity,
+                        height: 200,
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   ),
                   Padding(
@@ -173,6 +195,8 @@ class Antarctica extends StatelessWidget {
                   SizedBox(
                     height: 30,
                   ),
+
+                  //Fifth animal details
                   Text(
                     'Antarctic Toothfish',
                     textAlign: TextAlign.center,
@@ -183,11 +207,14 @@ class Antarctica extends StatelessWidget {
                   ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(20, 20, 20, 0),
-                    child: Image.asset(
-                      'assets/Antac/an5.jpg',
-                      width: double.infinity,
-                      height: 250,
-                      fit: BoxFit.fitWidth,
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(20),
+                      child: Image.asset(
+                        'assets/Antac/an5.jpg',
+                        width: double.infinity,
+                        height: 200,
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   ),
                   Padding(
@@ -209,6 +236,8 @@ class Antarctica extends StatelessWidget {
                   SizedBox(
                     height: 30,
                   ),
+
+                  //Sixth animal details
                   Text(
                     'Snow petrel',
                     textAlign: TextAlign.center,
@@ -219,11 +248,14 @@ class Antarctica extends StatelessWidget {
                   ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(20, 10, 20, 0),
-                    child: Image.asset(
-                      'assets/Antac/an6.jpg',
-                      width: double.infinity,
-                      height: 250,
-                      fit: BoxFit.fitWidth,
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(20),
+                      child: Image.asset(
+                        'assets/Antac/an6.jpg',
+                        width: double.infinity,
+                        height: 200,
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   ),
                   Padding(
