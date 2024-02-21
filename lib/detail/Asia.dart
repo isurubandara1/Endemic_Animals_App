@@ -5,6 +5,7 @@ class Asia extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      //Appbar
       appBar: AppBar(
         toolbarHeight: 80,
         backgroundColor: Color.fromARGB(255, 18, 110, 72),
@@ -15,6 +16,8 @@ class Asia extends StatelessWidget {
           child: Icon(Icons.arrow_back),
         ),
       ),
+
+      //body
       body: Container(
         decoration: BoxDecoration(
           border: Border.all(
@@ -28,6 +31,7 @@ class Asia extends StatelessWidget {
             child: Center(
               child: Column(
                 children: [
+                  //First animal details
                   Text(
                     'Afghan pika',
                     textAlign: TextAlign.center,
@@ -38,11 +42,14 @@ class Asia extends StatelessWidget {
                   ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(20, 20, 20, 0),
-                    child: Image.asset(
-                      'assets/Asia/a1.jpg',
-                      width: double.infinity,
-                      height: 250,
-                      fit: BoxFit.fitWidth,
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(20),
+                      child: Image.asset(
+                        'assets/Asia/a1.jpg',
+                        width: double.infinity,
+                        height: 200,
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   ),
                   Padding(
@@ -65,6 +72,8 @@ class Asia extends StatelessWidget {
                   SizedBox(
                     height: 30,
                   ),
+
+                  //Second animal details
                   Text(
                     'Malayan Tapir',
                     textAlign: TextAlign.center,
@@ -75,11 +84,14 @@ class Asia extends StatelessWidget {
                   ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(20, 20, 20, 0),
-                    child: Image.asset(
-                      'assets/Asia/as2.jpg',
-                      width: double.infinity,
-                      height: 250,
-                      fit: BoxFit.fitWidth,
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(20),
+                      child: Image.asset(
+                        'assets/Asia/as2.jpg',
+                        width: double.infinity,
+                        height: 200,
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   ),
                   Padding(
@@ -101,6 +113,8 @@ class Asia extends StatelessWidget {
                   SizedBox(
                     height: 30,
                   ),
+
+                  //Third animal details
                   Text(
                     'Bornean Orangutan',
                     textAlign: TextAlign.center,
@@ -111,11 +125,14 @@ class Asia extends StatelessWidget {
                   ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(20, 20, 20, 0),
-                    child: Image.asset(
-                      'assets/Asia/as3.jpg',
-                      width: double.infinity,
-                      height: 250,
-                      fit: BoxFit.fitWidth,
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(20),
+                      child: Image.asset(
+                        'assets/Asia/as3.jpg',
+                        width: double.infinity,
+                        height: 200,
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   ),
                   Padding(
@@ -137,6 +154,8 @@ class Asia extends StatelessWidget {
                   SizedBox(
                     height: 30,
                   ),
+
+                  //Forth animal details
                   Text(
                     'Kashmir Stag',
                     textAlign: TextAlign.center,
@@ -147,11 +166,14 @@ class Asia extends StatelessWidget {
                   ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(20, 10, 20, 0),
-                    child: Image.asset(
-                      'assets/Asia/as4.jpg',
-                      width: double.infinity,
-                      height: 250,
-                      fit: BoxFit.fitWidth,
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(20),
+                      child: Image.asset(
+                        'assets/Asia/as4.jpg',
+                        width: double.infinity,
+                        height: 200,
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   ),
                   Padding(
@@ -173,6 +195,8 @@ class Asia extends StatelessWidget {
                   SizedBox(
                     height: 30,
                   ),
+
+                  //Fifth animal details
                   Text(
                     'Japanese Giant Salamander',
                     textAlign: TextAlign.center,
@@ -183,11 +207,14 @@ class Asia extends StatelessWidget {
                   ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(20, 20, 20, 0),
-                    child: Image.asset(
-                      'assets/Asia/as5.jpg',
-                      width: double.infinity,
-                      height: 250,
-                      fit: BoxFit.fitWidth,
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(20),
+                      child: Image.asset(
+                        'assets/Asia/as5.jpg',
+                        width: double.infinity,
+                        height: 200,
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   ),
                   Padding(
@@ -209,6 +236,8 @@ class Asia extends StatelessWidget {
                   SizedBox(
                     height: 30,
                   ),
+
+                  //Sixth animal details
                   Text(
                     'Amur Leopard',
                     textAlign: TextAlign.center,
@@ -219,11 +248,14 @@ class Asia extends StatelessWidget {
                   ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(20, 10, 20, 0),
-                    child: Image.asset(
-                      'assets/Asia/as6.jpg',
-                      width: double.infinity,
-                      height: 250,
-                      fit: BoxFit.fitWidth,
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(20),
+                      child: Image.asset(
+                        'assets/Asia/as6.jpg',
+                        width: double.infinity,
+                        height: 200,
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   ),
                   Padding(
@@ -245,6 +277,8 @@ class Asia extends StatelessWidget {
                   SizedBox(
                     height: 30,
                   ),
+
+                  //Seventh animal details
                   Text(
                     'Philippine Tarsier',
                     textAlign: TextAlign.center,
@@ -255,11 +289,14 @@ class Asia extends StatelessWidget {
                   ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(20, 20, 20, 0),
-                    child: Image.asset(
-                      'assets/Asia/as7.jpg',
-                      width: double.infinity,
-                      height: 250,
-                      fit: BoxFit.fitWidth,
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(20),
+                      child: Image.asset(
+                        'assets/Asia/as7.jpg',
+                        width: double.infinity,
+                        height: 200,
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   ),
                   Padding(
@@ -281,6 +318,8 @@ class Asia extends StatelessWidget {
                   SizedBox(
                     height: 30,
                   ),
+
+                  //Eigth animal details
                   Text(
                     'Javan Rhino',
                     textAlign: TextAlign.center,
@@ -291,11 +330,14 @@ class Asia extends StatelessWidget {
                   ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(20, 20, 20, 0),
-                    child: Image.asset(
-                      'assets/Asia/as8.jpg',
-                      width: double.infinity,
-                      height: 250,
-                      fit: BoxFit.fitWidth,
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(20),
+                      child: Image.asset(
+                        'assets/Asia/as8.jpg',
+                        width: double.infinity,
+                        height: 200,
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   ),
                   Padding(
@@ -317,6 +359,8 @@ class Asia extends StatelessWidget {
                   SizedBox(
                     height: 30,
                   ),
+
+                  //Nineth animal details
                   Text(
                     'Chinese Alligator',
                     textAlign: TextAlign.center,
@@ -327,11 +371,14 @@ class Asia extends StatelessWidget {
                   ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(20, 20, 20, 0),
-                    child: Image.asset(
-                      'assets/Asia/as9.jpg',
-                      width: double.infinity,
-                      height: 250,
-                      fit: BoxFit.fitWidth,
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(20),
+                      child: Image.asset(
+                        'assets/Asia/as9.jpg',
+                        width: double.infinity,
+                        height: 200,
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   ),
                   Padding(
@@ -353,6 +400,8 @@ class Asia extends StatelessWidget {
                   SizedBox(
                     height: 30,
                   ),
+
+                  //Tenth animal details
                   Text(
                     'Formosan Black Bear',
                     textAlign: TextAlign.center,
@@ -363,11 +412,14 @@ class Asia extends StatelessWidget {
                   ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(20, 20, 20, 0),
-                    child: Image.asset(
-                      'assets/Asia/as10.jpg',
-                      width: double.infinity,
-                      height: 250,
-                      fit: BoxFit.fitWidth,
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(20),
+                      child: Image.asset(
+                        'assets/Asia/as10.jpg',
+                        width: double.infinity,
+                        height: 200,
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   ),
                   Padding(
@@ -389,6 +441,8 @@ class Asia extends StatelessWidget {
                   SizedBox(
                     height: 30,
                   ),
+
+                  //Eleventh animal details
                   Text(
                     'Sri Lankan Frogmouth',
                     textAlign: TextAlign.center,
@@ -399,11 +453,14 @@ class Asia extends StatelessWidget {
                   ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(20, 20, 20, 0),
-                    child: Image.asset(
-                      'assets/Asia/as11.jpg',
-                      width: double.infinity,
-                      height: 250,
-                      fit: BoxFit.fitWidth,
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(20),
+                      child: Image.asset(
+                        'assets/Asia/as11.jpg',
+                        width: double.infinity,
+                        height: 200,
+                        fit: BoxFit.fill,
+                      ),
                     ),
                   ),
                   const Padding(
