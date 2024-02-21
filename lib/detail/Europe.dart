@@ -5,6 +5,7 @@ class Europe extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      //Appbar
       appBar: AppBar(
         toolbarHeight: 80,
         backgroundColor: Color.fromARGB(255, 18, 110, 72),
@@ -15,6 +16,8 @@ class Europe extends StatelessWidget {
           child: Icon(Icons.arrow_back),
         ),
       ),
+
+      //body
       body: Container(
         decoration: BoxDecoration(
           border: Border.all(
@@ -28,6 +31,7 @@ class Europe extends StatelessWidget {
             child: Center(
               child: Column(
                 children: [
+                  //First animal details
                   Text(
                     'European bison',
                     textAlign: TextAlign.center,
@@ -41,7 +45,7 @@ class Europe extends StatelessWidget {
                     child: Image.asset(
                       'assets/Euro/eu1.jpg',
                       width: double.infinity,
-                      height: 250,
+                      height: 200,
                       fit: BoxFit.fitWidth,
                     ),
                   ),
@@ -65,6 +69,8 @@ class Europe extends StatelessWidget {
                   SizedBox(
                     height: 30,
                   ),
+
+                  //Second animal details
                   Text(
                     'Iberian lynx',
                     textAlign: TextAlign.center,
@@ -78,7 +84,7 @@ class Europe extends StatelessWidget {
                     child: Image.asset(
                       'assets/Euro/eu2.jpg',
                       width: double.infinity,
-                      height: 250,
+                      height: 200,
                       fit: BoxFit.fitWidth,
                     ),
                   ),
@@ -101,6 +107,8 @@ class Europe extends StatelessWidget {
                   SizedBox(
                     height: 30,
                   ),
+
+                  //Thired animal details
                   Text(
                     'Pyrenean desman',
                     textAlign: TextAlign.center,
@@ -114,7 +122,7 @@ class Europe extends StatelessWidget {
                     child: Image.asset(
                       'assets/Euro/eu3.jpg',
                       width: double.infinity,
-                      height: 250,
+                      height: 200,
                       fit: BoxFit.fitWidth,
                     ),
                   ),
@@ -137,6 +145,8 @@ class Europe extends StatelessWidget {
                   SizedBox(
                     height: 30,
                   ),
+
+                  //Forth animal details
                   Text(
                     'Corsican red deer',
                     textAlign: TextAlign.center,
@@ -150,7 +160,7 @@ class Europe extends StatelessWidget {
                     child: Image.asset(
                       'assets/Euro/eu4.jpg',
                       width: double.infinity,
-                      height: 250,
+                      height: 200,
                       fit: BoxFit.fitWidth,
                     ),
                   ),
@@ -173,6 +183,8 @@ class Europe extends StatelessWidget {
                   SizedBox(
                     height: 30,
                   ),
+
+                  //Fifth animal details
                   Text(
                     'Sicilian shrew',
                     textAlign: TextAlign.center,
@@ -186,7 +198,7 @@ class Europe extends StatelessWidget {
                     child: Image.asset(
                       'assets/Euro/eu5.jpg',
                       width: double.infinity,
-                      height: 250,
+                      height: 200,
                       fit: BoxFit.fitWidth,
                     ),
                   ),
@@ -209,6 +221,8 @@ class Europe extends StatelessWidget {
                   SizedBox(
                     height: 30,
                   ),
+
+                  //Sixth animal details
                   Text(
                     'Balkan lynx',
                     textAlign: TextAlign.center,
@@ -222,7 +236,7 @@ class Europe extends StatelessWidget {
                     child: Image.asset(
                       'assets/Euro/eu6.jpg',
                       width: double.infinity,
-                      height: 250,
+                      height: 200,
                       fit: BoxFit.fitWidth,
                     ),
                   ),
@@ -245,6 +259,8 @@ class Europe extends StatelessWidget {
                   SizedBox(
                     height: 30,
                   ),
+
+                  //Seventh animal details
                   Text(
                     'Sardinian long-eared bat',
                     textAlign: TextAlign.center,
@@ -258,7 +274,7 @@ class Europe extends StatelessWidget {
                     child: Image.asset(
                       'assets/Euro/eu7.jpg',
                       width: double.infinity,
-                      height: 250,
+                      height: 200,
                       fit: BoxFit.fitWidth,
                     ),
                   ),
@@ -281,6 +297,8 @@ class Europe extends StatelessWidget {
                   SizedBox(
                     height: 30,
                   ),
+
+                  //Eight animal details
                   Text(
                     'Alpine ibex',
                     textAlign: TextAlign.center,
@@ -294,8 +312,8 @@ class Europe extends StatelessWidget {
                     child: Image.asset(
                       'assets/Euro/eu8.jpg',
                       width: double.infinity,
-                      height: 250,
-                      fit: BoxFit.fitWidth,
+                      height: 200,
+                      fit: BoxFit.cover,
                     ),
                   ),
                   Padding(
