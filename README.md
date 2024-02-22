@@ -4,8 +4,23 @@ This app has been developed using Flutter. It showcases a wide range of native e
 
 ## Screenshots
 
-![20230806_013208](https://github.com/isurubandara1/Endemic_Animals_App/assets/111081151/85a65c1c-96ed-485f-ba55-32961ca8b4dd)
+<img src="https://github.com/isurubandara1/Endemic_Animals_App/assets/111081151/85a65c1c-96ed-485f-ba55-32961ca8b4dd" width="800" alt="Screenshot">
 
 ## Technologies Used
-- Flutter framework 
-- Dart language
+
+- **Flutter Framework**: A cross-platform framework for building native applications for mobile, web, and desktop from a single codebase.
+- **Dart Language**: The programming language used for building Flutter applications.
+
+## Getting Started
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/isurubandara1/Endemic_Animals_App.git
+
+2. **Install Dependencies:**
+
+   ```bash
+    flutter pub get
+    flutter run 
+
